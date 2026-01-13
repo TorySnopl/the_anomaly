@@ -1,7 +1,7 @@
 from utils import clear, pause, slow_print
 from state import game_state
 from levels import level_one
-from endings import show_ending
+#from endings import show_ending
 
 def main():
     clear()
@@ -12,7 +12,7 @@ def main():
     level_one(game_state)
 
     # Show Ending based on final game state
-    show_ending(game_state)
+   # show_ending(game_state)
 
 if __name__ == "__main__":
     main()
